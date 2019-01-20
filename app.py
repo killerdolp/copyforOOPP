@@ -46,6 +46,7 @@ class Tournament(Base):
     def get_place(self):
         return self.place
 
+
     def get_betting_amount(self):
         return self.betting_amount
 
